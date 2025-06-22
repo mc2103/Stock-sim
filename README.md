@@ -1,1 +1,0 @@
-# Trading Simulator Phase 3
