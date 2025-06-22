@@ -23,14 +23,3 @@ canvas {
   border: 1px solid #ccc;
   width: 100%;
 }
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-.controls button {
-  margin-right: 5px;
-}
-canvas {
-  margin-top: 20px;
-  border: 1px solid #ccc;
-}
