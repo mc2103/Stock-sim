@@ -3,6 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📈 Trading Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Trading Simulator</h1>
+    <div class="controls">
+      <button id="play">▶️ Play</button>
+      <button id="pause">⏸️ Pause</button>
+      <button id="buy">🟢 Buy</button>
+      <button id="sell">🔴 Sell</button>
+    </div>
+    <div class="info">
+      <p id="price">Price: $--</p>
+      <p id="cash">Cash: $1000.00</p>
+      <p id="shares">Shares: 0</p>
+      <p id="pl">P/L: $0.00</p>
+    </div>
+    <canvas id="chart" width="320" height="150"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>📊 Trading Simulator</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
