@@ -1,4 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
 
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
 let prices = [10.5, 10.6, 10.7, 10.4, 10.55, 10.8, 10.75, 10.65];
 let index = 0;
 let cash = 1000;
