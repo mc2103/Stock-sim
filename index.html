@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📊 Trading Simulator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>📊 Trading Simulator</h1>
+  <div class="controls">
+    <button onclick="play()">▶️ Play</button>
+    <button onclick="pause()">⏸️ Pause</button>
+    <button onclick="buy()">🟩 Buy</button>
+    <button onclick="sell()">🟥 Sell</button>
+  </div>
+  <div class="info">
+    <p id="price">Price: --</p>
+    <p id="cash">Cash: $1000</p>
+    <p id="shares">Shares: 0</p>
+    <p id="pl">P/L: $0</p>
+  </div>
+  <canvas id="chart" width="600" height="200"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
